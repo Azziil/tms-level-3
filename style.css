@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    color: #000;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-style: normal;
+}
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.tabs {
+    display: flex;
+}
+.tab1 {
+    border: 1px solid  #C6CBCD;
+    ;
+    padding: 10px 80px ;
+    border-radius: 5px 5px 0px 0px;
+}
+.tab2 {
+    padding: 10px 80px ;
+    border-radius: 5px 5px 0px 0px;
+}
+.tab3   {
+    padding: 10px 80px ;
+    border-radius: 5px 5px 0px 0px;
+}
+.rectangle {
+    box-sizing: border-box;
+width: 1170px;
+height: 501px;
+left: 170px;
+top: 1302px;
+
+border: 1px solid #C6CBCD;
+}
+.maintext {
+    position: absolute;
+left: 17%;
+right: 30;
+top: 10% ;
+bottom: 74.28%;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 25px;
+}
+.secondtext {
+    position: absolute;
+left: 17.88%;
+right: 44.37%;
+top: 26.21%;
+bottom: 70.01%;
+    display: flex;
+    font-family: Raleway;
+font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+}
+.button {
+        width: 270px;
+    height: 60px;
+    background-color: #EC7979;
+    border: #000;
+    margin: 390px 100px 330px 55px
+
+}
+.img {
+    float: right; 
+    width: 470px;
+    height: 500px;
+    left: 870px;
+    top: 1303px; 
+}
+
