@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
+/* всегда это использовать */
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    color: #000;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-style: normal;
+}
+/* конец использования */
+
+/* глобальные стили */
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.separator {
+    width: 170px;
+    height: 1px;
+    margin: 60px auto 40px;
+}
+
+.separator--red-color {
+    background-color: #EC7979;
+}
+
+.main-title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    color: #000000;
+}
+
+.secondary-title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #86878B;
+}
+
+/* конец глобальных стилей */
+
+/* about */
+.about__list{
+    margin-top: 110px;
+}
+
+.list__list-item {
+    text-align: center;
+    display: inline-block;
+    width: calc(99%/3);
+}
+
+.list-item__image--wrapper {
+    display: inline-block;
+    height: 95px;
+    width: 95px;
+    border: 1px solid #EC7979;
+    border-radius: 50%;
+    margin-bottom: 80px;
+}
+
+.list-item__title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+
+.list-item__text {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+/* end about */
